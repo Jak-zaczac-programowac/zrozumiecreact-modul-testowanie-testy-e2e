@@ -1,8 +1,9 @@
 import "./styles/theme.css";
 import "./styles/globals.css";
+import { Layout } from "./components/Layout/Layout";
 
 function App() {
-    return <p>Witaj w naszym sklepie!</p>;
+    return <Layout></Layout>;
 }
 
 export default App;

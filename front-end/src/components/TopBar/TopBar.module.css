@@ -1,0 +1,21 @@
+.topBarWrapper {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.topBar {
+    width: 100%;
+    max-width: 100rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.topBar > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
