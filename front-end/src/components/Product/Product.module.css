@@ -1,0 +1,32 @@
+.image {
+    width: 250px;
+    height: 400px;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.price {
+    color: var(--color-price);
+}
+
+.container {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+
+    height: 24px;
+    width: 24px;
+
+    background-image: url("../../assets/heart.svg");
+}
+
+.heart:hover {
+    background-image: url("../../assets/heart-full.svg");
+}
