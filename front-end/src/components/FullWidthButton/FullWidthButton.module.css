@@ -6,3 +6,7 @@
     background-color: var(--color-theme-main);
     border: none;
 }
+
+.black {
+    background-color: var(--color-text-default);
+}
