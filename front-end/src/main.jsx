@@ -5,11 +5,12 @@ import { MainPage } from "./views/MainPage/MainPage.jsx";
 import { Favourites } from "./views/Favourites/Favourites.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Cart } from "./views/Cart/Cart.jsx";
+import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Cart />,
+        element: <ProductsList />,
     },
 ]);
 

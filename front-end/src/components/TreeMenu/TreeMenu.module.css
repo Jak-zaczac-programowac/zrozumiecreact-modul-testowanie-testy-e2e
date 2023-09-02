@@ -1,0 +1,23 @@
+.treeMenu {
+    width: 12rem;
+    margin-top: 1rem;
+}
+
+.treeMenu h2 {
+    margin-bottom: 1rem;
+}
+
+.treeMenu a {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.treeMenu ul ul {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.treeMenu a:global(.active) {
+    font-weight: 600;
+}
